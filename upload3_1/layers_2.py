@@ -33,7 +33,7 @@ class ConvolutionalLayer(object):
        self.input_pad = np.zeros([self.input.shape[0], self.input.shape[1], height, width])
        self.input_pad[:, :, self.padding:self.padding+self.input.shape[2], self.padding:self.padding+self.input.shape[3]] = self.input
        height_out = (height-self.kernel_size+self.stride)//self.stride
-       width_out = (height-self.kernel_size+self.stride)//self.stride 
+       width_out = (width-self.kernel_size+self.stride)//self.stride 
        self.output = np.zeros([self.input.shape[0], self.channel_out, height_out, width_out])
        for idxn in range(self.input.shape[0]):
            for idxc in range(self.channel_out):
