@@ -3,6 +3,8 @@
 ## 第二章实验
 上传文件为upload2_1/upload2_2
 
+## 第三章实验
+上传文件为upload3_1/upload3_2/upload3_3
 
 ## 实验得分
 | | 得分 |
